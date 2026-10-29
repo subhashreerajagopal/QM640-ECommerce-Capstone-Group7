@@ -1,11 +1,24 @@
-numpy>=1.24.0
-pandas>=2.0.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-scikit-learn>=1.2.0
-xgboost>=2.0.0
-lightgbm>=4.0.0
-imbalanced-learn>=0.10.0
-statsmodels>=0.14.0
-prophet>=1.1.0
-torch>=2.0.0
+# Core Data Science and Wrangling
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.10.1
+
+# Unsupervised Clustering (K-Prototypes for Mixed Data)
+kmodes==0.12.2
+
+# Supervised Machine Learning Ensembles
+scikit-learn==1.2.2
+xgboost==1.7.6
+lightgbm==4.0.0
+imbalanced-learn==0.10.1
+
+# Time-Series Forecasting
+prophet==1.1.4
+statsmodels==0.14.0
+
+# Deep Reinforcement Learning (MARL Deep Q-Networks)
+torch>=2.0.1
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
